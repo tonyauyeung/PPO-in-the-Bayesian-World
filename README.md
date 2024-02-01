@@ -1,5 +1,5 @@
 # PPO-in-the-Bayesian-World
 This repo contains the report and codes of group project of Cambridge L48 - Machine Learning and Physical World.
 
-Abstract
+## Abstract
 This study investigates optimising Proximal Policy Optimisation (PPO) for the Cart- pole problem, a fundamental model mirroring a variety of complex real-world chal- lenges, using Bayesian Optimisation (BO) with Gaussian Process (GP) surrogates. Sensitivity analysis highlighted the learning rate and entropy coefficient as critical hyperparameters. Our exploration of multifidelity approaches and actor/critic fideli- ties offered nuanced insights into computational efficiency and learning dynamics. Notably, fewer initial samples led to computational savings, with random sampling sometimes outperforming structured methods. The Matern52 kernel achieved an optimal balance with the Cartpole’s dynamics, and the Expected Improvement (EI) acquisition function effectively balanced exploration and exploitation. The study also found a significant alignment between the periodic and combined kernels with the physical dynamics of the Cartpole problem. These results inform future research in Reinforcement Learning (RL) optimisation, emphasising adaptive ap- proaches, multifidelity, informative GP kernels, and experimental design in varied RL contexts, while addressing the inherent difficulty in tuning PPO.
